@@ -1,0 +1,6 @@
+      double value = input.nextDouble();
+      System.out.println(" nextDouble(): " + value);
+
+      input.close();
+   }
+}
