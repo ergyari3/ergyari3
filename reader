@@ -1,0 +1,13 @@
+            input.read(array);
+            System.out.println(":");
+            System.out.println(array);
+
+            // reader
+            input.close();
+        }
+
+        catch(Exception e) {
+            e.getStackTrace();
+        }
+    }
+}
