@@ -1,0 +1,9 @@
+context.save();
+context.fillStyle = "#6666ff";
+context.fillRect  (65, 5, 50, 50);
+context.strokeRect(65, 5, 50, 50);
+context.save();
+context.strokeStyle = "#000099";
+context.fillRect  (125, 5, 50, 50);
+context.strokeRect(125, 5, 50, 50);
+context.restore();
